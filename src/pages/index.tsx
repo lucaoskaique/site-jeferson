@@ -1,8 +1,11 @@
 import React from 'react';
 
+import * as S from '../styles/pages';
+
 const Home: React.FC = () => {
   return (
-    <h1>Hello World</h1>
+    <S.Container>
+    </S.Container>
   )
 }
 
