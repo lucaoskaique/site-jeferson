@@ -13,6 +13,7 @@ export default createGlobalStyle`
     --red: #D90726;
     --blue: #0092D3;
     --yellow: #FFBF3A;
+    --light: #fff;
 
     --red-gradient: linear-gradient(90.94deg, #FFBF3A -40%, #D90726 185.31%);
     --green-gradient: linear-gradient(90deg, #72C042 -99.98%, #72C042 -42.41%);

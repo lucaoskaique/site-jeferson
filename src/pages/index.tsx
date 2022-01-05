@@ -1,12 +1,12 @@
 import React from 'react';
 
 import * as S from '@styles/pages';
-import Header from '@components/Header';
+import Navbar from '@components/Navbar';
 
 const Home: React.FC = () => {
   return (
     <S.Container>
-      <Header />
+      <Navbar />
     </S.Container>
   )
 }
