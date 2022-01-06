@@ -1,6 +1,6 @@
-import Document, { DocumentContext } from 'next/document'
+import Document, { DocumentContext, Html, Head, Main, NextScript } from 'next/document'
   import { ServerStyleSheet } from 'styled-components'
-  
+
   export default class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {
       const sheet = new ServerStyleSheet()
@@ -27,4 +27,22 @@ import Document, { DocumentContext } from 'next/document'
         sheet.seal()
       }
     }
+
+    render(){
+        return(
+          <Html>
+            <Head>
+              <link rel="preconnect" href="https://fonts.gstatic.com" />
+              <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;900&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+              <link rel="shortcut icon" href="favicon.png" type="image/png"/>
+            </Head>
+            <body>
+              <Main />
+              <NextScript />
+            </body>
+          </Html>
+        );
+    }
   }
+
+

@@ -1,13 +1,13 @@
 import React from 'react';
 
 import * as S from '@styles/pages';
-import Navbar from '@components/Navbar';
+import Layout from '@layout/LayoutDefault';
 
 const Home: React.FC = () => {
   return (
-    <S.Container>
-      <Navbar />
-    </S.Container>
+    <Layout>
+      Olá
+    </Layout>
   )
 }
 
