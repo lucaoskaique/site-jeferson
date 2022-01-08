@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
+export const Container = styled.footer`
   background: var(--blue-gradient);
   padding: 5.375rem 8.5rem 3.75rem;
   

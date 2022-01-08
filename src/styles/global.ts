@@ -44,6 +44,14 @@ export default createGlobalStyle`
   button{
     cursor: pointer;
   }
+  
+  button, input {
+    border: none;
+    outline: 0;
+  }
+  button, a, input[type="submit"] {
+    cursor: pointer;
+  }
 
   a{
     color: inherit;
